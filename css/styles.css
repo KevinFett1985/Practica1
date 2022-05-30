@@ -1,3 +1,4 @@
+/*
 #parah1{
 
     text-align: justify;
@@ -11,10 +12,7 @@
     font: size 21px;
     ;
   }
-  body{
-background-image: url(https://www.canalviax.com/wp-content/uploads/2017/10/maxresdefault-2.jpg);
-  
-  }
+ 
    #p3{
     font-size: x-large;
 }
@@ -26,7 +24,7 @@ font-size: large;
 color: azure;
 padding: 10px 10px 10px  10px;
 }
-
+*/
 .menu li{
 list-style: none;
 color: #000;
@@ -35,7 +33,11 @@ background:#FFF;
 margin :0 20px;
 border-radius: 5px;
 padding: 5px 5px 5px 5px;
-}
+} 
+body{
+background-image: url(https://www.canalviax.com/wp-content/uploads/2017/10/maxresdefault-2.jpg);
+  
+  }
 #encabezado{
   color: #fff;
   border-radius: 10px;
@@ -46,6 +48,7 @@ padding: 5px 5px 5px 5px;
   background-image: url(https://www.elsoldetlaxcala.com.mx/incoming/sk14n2-balltzehk/alternates/LANDSCAPE_768/Balltzehk);
 }
 #piepagina{
+  font-family: Arial, Helvetica, sans-serif;
   color: #000;
   text-align: center;
   border-radius: 10px;
@@ -56,22 +59,36 @@ padding: 5px 5px 5px 5px;
   clear: both;
 }
 #seccion1{
-  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  float: left;
   width: 30%;
   height: 40%;
   margin: 0 0 0 0px;
   background-color: blue;
   padding: 10px 10px 10px 10px;
+  color:#FFF;
 
 }
 #seccion2{
-float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+float: left;
 width: 50%;
 height: 50%;
 margin: 0 9px 0 0;
 background-color:red;
 padding: 10px 10px 10px 10px;
+color:#FFF;
 }
+li{
+  text-align: justify;
+}
+table{
+  float: center;
+}
+
+
 
 
 
